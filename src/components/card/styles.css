@@ -1,0 +1,22 @@
+.card {
+	width: 100%;
+
+	border: 0 solid;
+	border-radius: 5px;
+
+	margin: 5px 0 5px 0;
+
+	background-color: white;
+}
+
+.cardContent {
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.removeSVG {
+	width: 24px;
+	cursor: pointer;
+	transform: rotate(45deg);
+}
