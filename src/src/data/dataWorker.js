@@ -10,8 +10,8 @@ export function ReadData() {
 
         for(let i = 0; i < arrayOfNames.length; i++) {
             const item = storage.getItem(_key + arrayOfNames[i])
-            if( item !== null)
-                columns.push(JSON.parse(item))
+
+            columns.push(JSON.parse(item))
         }
 
         return {

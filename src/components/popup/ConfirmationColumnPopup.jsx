@@ -3,7 +3,7 @@ import React from 'react';
 
 import './styles.css';
 
-class ConfirmationPopup extends React.Component {
+class ConfirmationColumnPopup extends React.Component {
 	constructor(props) {
 		super(props)
 		
@@ -40,4 +40,4 @@ class ConfirmationPopup extends React.Component {
 	}
 }
 
-export default ConfirmationPopup;
+export default ConfirmationColumnPopup;
